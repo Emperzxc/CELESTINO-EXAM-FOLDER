@@ -5,7 +5,7 @@
 ### 1. Clone the Git Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Emperzxc/CELESTINO-EXAM-FOLDER
 cd project-folder
 ```
 ### 2. Install Composer Dependencies
