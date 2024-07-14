@@ -17,16 +17,21 @@ composer install
 cp .env.example .env
 ```
 Update the .env file with your database credentials and other settings.
-
 ### 4. Migrate the Database
 ```bash
 php artisan migrate
 ```
-### 5. Generate Application Key
+
+### 5. Seed the Database
+```bash
+php artisan db:seed
+```
+This will make sure that the data will populate the databse using the CSV file and Faker. 
+### 6. Generate Application Key
 ```bash
 php artisan key:generate
 ```
-### 6. Serve the Application
+### 7. Serve the Application
 ```bash
 php artisan serve
 ```
